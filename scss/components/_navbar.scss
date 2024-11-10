@@ -1,0 +1,34 @@
+$primary-blue: #52abff;
+$primary-orange: #ff9900;
+
+.navbar {
+  background-color: $primary-blue;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: darken($primary-blue, 10%);
+    }
+  }
+
+  img {
+    width: 50px;
+  }
+
+  .special-button {
+    background-color: $primary-orange;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: darken($primary-orange, 10%);
+    }
+  }
+}

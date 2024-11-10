@@ -1,0 +1,23 @@
+.flex__grid {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.flex__item {
+  border: 1px solid #68668d;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  word-wrap: break-word; 
+  width: 25%;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

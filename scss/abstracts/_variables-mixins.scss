@@ -1,0 +1,13 @@
+$primary-color: #005b96;
+$secondary-color: #00a4d3;
+$font-family: 'Montserrat', sans-serif;
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin responsive-padding($size) {
+  padding: $size;
+}
